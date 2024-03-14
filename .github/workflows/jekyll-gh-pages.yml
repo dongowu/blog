@@ -36,7 +36,7 @@ jobs:
       - name: Install dependencies
         run: npm run clean
       - name: run deploy
-        run: git config --global user.email "jason_w96@163.com" && git config --global user.name "wudongdong" && npm run deploy 
+        run: git config --global user.email "jason_w96@163.com" && git config --global user.name "dongowu" && npm run deploy 
   deploy:
     needs: build
     permissions:
