@@ -34,7 +34,7 @@ jobs:
         with:
           path: ./public
       - name: Install dependencies
-        run: npm run clean
+        run: npm run clean && npm install hexo-deployer-git --save
       - name: run deploy
         run: git config --global user.email "jason_w96@163.com" && git config --global user.name "dongowu" && npm run deploy 
   deploy:
