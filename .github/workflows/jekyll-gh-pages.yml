@@ -9,15 +9,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           # If your repository depends on submodule, please see: https://github.com/actions/checkout
           submodules: recursive
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 18.4.0
       - name: Install dependencies
         run: npm install 
       - name: Cache NPM dependencies
