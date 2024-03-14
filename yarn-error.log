@@ -1,0 +1,55 @@
+Arguments: 
+  D:\Program Files (x86)\Node\node.exe C:\Users\张骏\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install --production --ignore-optional --silent
+
+PATH: 
+  C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\soft\protoc\bin;D:\soft\flutter_windows_3.13.9-stable\flutter\bin;C:\Program Files\Git\cmd;D:\Program Files (x86)\Go\bin;D:\Program Files (x86)\Node\;D:\soft\python;D:\soft\python\Scripts;C:\Users\张骏\.cargo\bin;C:\Users\张骏\AppData\Local\Microsoft\WindowsApps;D:\soft\GoLand 2022.2.6\bin;C:\Users\张骏\AppData\Local\GitHubDesktop\bin;C:\Users\张骏\AppData\Local\Programs\Microsoft VS Code\bin;D:\soft\DataGrip 2023.1.2\bin;D:\soft\IntelliJ IDEA 2023.1.3\bin;%GoLand%;D:\soft\flutter_windows_3.13.9-stable\flutter\bin;C:\Program Files\JetBrains\JetBrains Gateway 233.11555.11\bin;;C:\Program Files\JetBrains\PyCharm 2023.3.1\bin;;D:\soft\RustRover 233.11799.306\bin;;C:\Users\张骏\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: certificate has expired
+      at TLSSocket.onConnectSecure (node:_tls_wrap:1674:34)
+      at TLSSocket.emit (node:events:518:28)
+      at TLSSocket._finishInit (node:_tls_wrap:1085:8)
+      at ssl.onhandshakedone (node:_tls_wrap:871:12)
+
+npm manifest: 
+  {
+    "name": "hexo-site",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+      "build": "hexo generate",
+      "clean": "hexo clean",
+      "deploy": "hexo deploy",
+      "server": "hexo server"
+    },
+    "hexo": {
+      "version": ""
+    },
+    "dependencies": {
+      "hexo": "^6.3.0",
+      "hexo-generator-archive": "^2.0.0",
+      "hexo-generator-category": "^2.0.0",
+      "hexo-generator-index": "^3.0.0",
+      "hexo-generator-tag": "^2.0.0",
+      "hexo-renderer-ejs": "^2.0.0",
+      "hexo-renderer-marked": "^6.0.0",
+      "hexo-renderer-stylus": "^2.1.0",
+      "hexo-server": "^3.0.0",
+      "hexo-theme-landscape": "^1.0.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
