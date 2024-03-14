@@ -105,3 +105,4 @@ deploy:
   type: 'git'
   repo:  'git@github.com:dongowu/dongowu.github.io.git'
   branch: master
+  token： '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'
