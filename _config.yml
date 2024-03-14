@@ -104,3 +104,4 @@ theme: Chic
 deploy:
   type: 'git'
   repo: "https://github.com/dongowu/dongowu.github.io.git"
+  branch: master
