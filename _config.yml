@@ -103,6 +103,6 @@ theme: Chic
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo:  'git@github.com:dongowu/dongowu.github.io.git'
+  repo:  'https://github.com/dongowu/dongowu.github.io'
   branch: master
   token: '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'
